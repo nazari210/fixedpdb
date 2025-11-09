@@ -1,29 +1,46 @@
-
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
+*.py[cod]
+*$py.class
+
+# Caches and logs
+logs/
+temp/
+output_fixed/
+*.log
+
+# Environment variables and virtual environments
+.env
+.venv/
 env/
 venv/
-.venv/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.log
-.DS_Store  
-*.pdb
-*.cif
-*.gro
-output_fixed/
-temp/ 
-logs/
-.env*.pdb   
-__pycache__/
-*.pyc
+ENV/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Dist and build files
+dist/
+build/
+*.egg-info/
+
+# PDBFixer/OpenMM temporary outputs (if any)
+*.pdb.bak
+*.tmp
+
+# Project-specific temporary files
+*.pdb_fixed
+*.pdb_temp
